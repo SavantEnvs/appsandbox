@@ -1,0 +1,3 @@
+{"jsonrpc":"2.0","id":9,"method":"tools/call","params":{"name":"snapshot_delete_branch","arguments":{"vm_id":"vm-0000000000000001","snapshot_index":2,"branch_index":1}}}
+{"jsonrpc":"2.0","id":10,"method":"tools/call","params":{"name":"ssh_read","arguments":{"vm_id":"vm-0000000000000001","ssh_session_id":"ssh-00000000000000ff","timeoutMs":100}}}
+{"jsonrpc":"2.0","id":11,"method":"tools/call","params":{"name":"template_delete","arguments":{"template_id":"template-00000000000000aa"}}}

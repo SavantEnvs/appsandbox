@@ -1,0 +1,9 @@
+project: savantenvs/appsandbox
+target: fuzz-bcd-build
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz-bcd-build/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_bcd_build
+    libfuzzer: true
+    timeout: 5

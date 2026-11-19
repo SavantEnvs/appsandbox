@@ -1,0 +1,9 @@
+project: savantenvs/appsandbox
+target: fuzz-wim-image
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz-wim-image/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_wim_image
+    libfuzzer: true
+    timeout: 5

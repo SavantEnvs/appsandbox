@@ -1,0 +1,7 @@
+# .dockerignore for the commit-image build: bake in the FULL repo (including .git history),
+# dropping only our own local build output. Upstream tracks a root build/ directory and
+# prebuilt .a/.dylib files under vendor/, so no generic build/ or *.a patterns here.
+/mayhem/out/
+**/__pycache__/
+.DS_Store
+*.swp

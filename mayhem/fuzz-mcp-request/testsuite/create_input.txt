@@ -1,0 +1,2 @@
+{"jsonrpc":"2.0","id":7,"method":"tools/call","params":{"name":"vm_create","arguments":{"name":"box","osType":"windows11","ramMb":8192,"hddGb":64,"cpuCores":4}}}
+{"jsonrpc":"2.0","id":"s8","method":"tools/call","params":{"name":"input","arguments":{"vm_id":"vm-00000000000000ab","actions":[{"type":"click","x":5,"y":6,"width":800,"height":600},{"type":"text","text":"hi\u00e9"},{"type":"key","scan":28,"down":true},{"type":"scroll","delta":120}]}}}

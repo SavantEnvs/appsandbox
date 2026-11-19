@@ -1,0 +1,2 @@
+/v1/vms/vm-00000000000000ab/input
+{"actions":[{"type":"move","x":1,"y":2,"width":640,"height":480},{"type":"unicode","text":"\ud83d\ude00"},{"type":"button","button":1,"down":false}]}
