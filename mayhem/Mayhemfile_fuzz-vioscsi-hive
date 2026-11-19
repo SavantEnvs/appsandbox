@@ -1,0 +1,9 @@
+project: savantenvs/appsandbox
+target: fuzz-vioscsi-hive
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz-vioscsi-hive/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_vioscsi_hive
+    libfuzzer: true
+    timeout: 5

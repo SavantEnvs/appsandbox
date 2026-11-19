@@ -1,0 +1,2 @@
+/v1/vms
+{"name":"box","osType":"ubuntu2604lts","ramMb":4096,"hddGb":40,"sshEnabled":true,"imagePath":"C:\\iso\\u.iso"}

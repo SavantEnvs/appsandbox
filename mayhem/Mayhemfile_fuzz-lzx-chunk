@@ -1,0 +1,9 @@
+project: savantenvs/appsandbox
+target: fuzz-lzx-chunk
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz-lzx-chunk/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_lzx_chunk
+    libfuzzer: true
+    timeout: 5

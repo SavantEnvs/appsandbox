@@ -1,0 +1,9 @@
+project: savantenvs/appsandbox
+target: fuzz-win-disk-build
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz-win-disk-build/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_win_disk_build
+    libfuzzer: true
+    timeout: 30

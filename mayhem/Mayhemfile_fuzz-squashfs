@@ -1,0 +1,9 @@
+project: savantenvs/appsandbox
+target: fuzz-squashfs
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz-squashfs/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_squashfs
+    libfuzzer: true
+    timeout: 5

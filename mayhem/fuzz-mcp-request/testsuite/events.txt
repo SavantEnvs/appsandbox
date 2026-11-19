@@ -1,0 +1,3 @@
+{"jsonrpc":"2.0","id":4,"method":"tools/call","params":{"name":"events_subscribe","arguments":{}}}
+{"jsonrpc":"2.0","id":5,"method":"tools/call","params":{"name":"events_read","arguments":{"timeoutMs":0,"maxEvents":4}}}
+{"jsonrpc":"2.0","id":6,"method":"tools/call","params":{"name":"events_unsubscribe"}}

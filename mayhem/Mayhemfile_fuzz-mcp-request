@@ -1,0 +1,9 @@
+project: savantenvs/appsandbox
+target: fuzz-mcp-request
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz-mcp-request/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_mcp_request
+    libfuzzer: true
+    timeout: 5
